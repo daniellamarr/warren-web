@@ -1,0 +1,38 @@
+@media (max-width: 700px) {
+  nav {
+    display: none;
+  }
+
+  .home-image {
+    display: none;
+  }
+
+  #suspended-mobile {
+    margin-top: -180px;
+  }
+  
+  #suspended-mobile img {
+    width: 200px;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .team-details {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+  }
+  
+  .footer-bars {
+    float: none;
+    margin-top: 30px;
+  }
+
+  .footer-bars .bars {
+    float: none;
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+}
