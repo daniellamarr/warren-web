@@ -1,0 +1,302 @@
+@font-face {
+  font-family: 'Sofia';
+  src: url("../fonts/Sofia.ttf") format("truetype");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Sofia';
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 13px;
+}
+
+input, button, textarea {
+  outline: none;
+}
+
+button {
+  background-color: #ffffff;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 0;
+  border-radius: 5px;
+  font-family: 'Sofia';
+  cursor: pointer;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  background-color: transparent;
+}
+
+.logo {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.logo img {
+  display: inline;
+}
+
+.logo h2 {
+  display: inline;
+  color: #ffffff;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+nav {
+  float: right;
+  margin-right: 150px;
+  margin-top: -20px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 30px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+#home {
+  background-image: url(../images/background.png);
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  height: 500px;
+}
+
+.home-title {
+  margin-left: 50px;
+  padding-top: 150px;
+}
+
+.home-title h1 {
+  color: #ffffff;
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+
+.home-image {
+  position: absolute;
+  right: 150px;
+  top: 100px;
+}
+
+.home-image img {
+  width: 650px;
+}
+
+#about {
+  height: 500px;
+  background-color: #dcae22;
+}
+
+.about-title {
+  margin-left: 50px;
+  padding-top: 100px;
+}
+
+.about-title h1 {
+  color: #ffffff;
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+
+.about-title p {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+#suspended-mobile {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin-top: -200px;
+}
+
+#suspended-mobile img {
+  width: 230px;
+}
+
+#partners {
+  background-color: #ffffff;
+  height: 400px;
+}
+
+#subscribe {
+  background-color: #dcae22;
+  padding: 50px;
+  text-align: center;
+}
+
+#subscribe button {
+  color: #dcae22;
+}
+
+.subscribe-text {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.subscribe-text h1 {
+  font-size: 30px;
+}
+
+.subscribe-text p {
+  font-size: 13px;
+}
+
+#team {
+  background-color: #ffffff;
+  padding: 50px;
+}
+
+.team-title {
+  text-align: center;
+}
+
+.teams {
+  margin-top: 50px;
+}
+
+.team-details {
+  width: 30.8%;
+  float: left;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.team-details:nth-child(3) {
+  margin-right: 0;
+}
+
+.team-details img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.3s all;
+}
+
+.team-details img:hover {
+  filter: none;
+}
+
+.person-detail {
+  text-align: center;
+}
+
+#download {
+  background-color: #dcae22;
+  padding: 50px;
+  text-align: center;
+}
+
+.download-text {
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.download-text h1 {
+  font-size: 30px;
+}
+
+.download-text p {
+  font-size: 13px;
+}
+
+.download-button img {
+  width: 150px;
+}
+
+#contact {
+  background-color: #ffffff;
+  height: 400px;
+  padding: 50px;
+  text-align: center;
+}
+
+.contact-form {
+  width: 500px;
+  margin-top: 100px;
+}
+
+.contact-form input {
+  width: 49%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #dcae22;
+  color: #000000;
+  margin-bottom: 20px;
+  font-family: 'Sofia';
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.contact-form textarea {
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #dcae22;
+  color: #000000;
+  margin-bottom: 20px;
+  font-family: 'Sofia';
+  resize: none;
+}
+
+.contact-form button {
+  background-color: #dcae22;
+  color: #ffffff;
+}
+
+footer {
+  background-color: #dcae22;
+  padding: 50px;
+  color: #ffffff;
+}
+
+.footer-bars {
+  float: right;
+  margin-top: -50px;
+}
+
+.footer-bars .bars {
+  float: left;
+  margin-left: 50px;
+}
+
+.footer-bars .bars h1 {
+  margin-bottom: 10px;
+}
+
+.footer-bars .bars li {
+  list-style: none;
+  font-size: 13px;
+}
+
+.footer-end {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.clear {
+  clear: both;
+}
