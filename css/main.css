@@ -37,6 +37,27 @@ header {
   position: absolute;
   width: 100%;
   background-color: transparent;
+  transition: 0.5s all;
+}
+
+.header-fixed {
+  background-color: #dcae22;
+  position: fixed;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 100;
+}
+
+.header-fixed nav {
+  margin-top: -35px;
+}
+
+.header-fixed .logo {
+  margin-top: 0;
+}
+
+.header-fixed nav a {
+  color: #ffffff;
 }
 
 .logo {
@@ -58,7 +79,7 @@ header {
 nav {
   float: right;
   margin-right: 150px;
-  margin-top: -20px;
+  margin-top: -40px;
 }
 
 nav ul li {

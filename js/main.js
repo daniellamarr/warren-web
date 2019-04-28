@@ -6,16 +6,16 @@ const headerComponent = `
     <nav>
       <ul>
         <li>
-          <a href="">About Warren</a>
+          <a href="#about">About Warren</a>
         </li>
         <li>
-          <a href="">Team</a>
+          <a href="#team">Team</a>
         </li>
         <li>
-          <a href="">FAQs</a>
+          <a href="#download">Download</a>
         </li>
         <li>
-          <a href="">Contact Us</a>
+          <a href="#contact">Contact Us</a>
         </li>
       </ul>
     </nav>
