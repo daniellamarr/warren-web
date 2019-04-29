@@ -3,7 +3,10 @@ const headerComponent = `
     <div class="logo">
       <img src="images/logo1.png" width="100px" />
     </div>
-    <nav>
+    <div class="mobile-menu">
+      <i class="ti ti-menu"></i>
+    </div>
+    <nav class="nav">
       <ul>
         <li>
           <a href="#about">About Warren</a>

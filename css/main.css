@@ -8,6 +8,10 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Sofia';
 }
@@ -38,6 +42,27 @@ header {
   width: 100%;
   background-color: transparent;
   transition: 0.5s all;
+}
+
+#sidenav {
+  width: 80%;
+  height: 100%;
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding-top: 67px;
+  background-color: rgba(220, 174, 34, 0.98);
+  z-index: 1;
+}
+
+#sidenav ul li {
+  background-color: rgba(220, 174, 34, 1);
+  padding: 30px;
+}
+
+.active {
+  display: none !important;
 }
 
 .header-fixed {
@@ -74,6 +99,10 @@ header {
   color: #ffffff;
   font-size: 10px;
   text-transform: uppercase;
+}
+
+.mobile-menu {
+  display: none;
 }
 
 nav {
