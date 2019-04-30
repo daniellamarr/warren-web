@@ -11,3 +11,24 @@ $('.nav a').click(function(e) {
   const target = $(this).attr('href');
   window.scrollTo(0,$(target).offset().top-60);
 })
+
+const partnerInner = document.getElementById('partners');
+
+const partnerScroll = (type) => {
+  if (type === 'left') {
+    partnerInner.scrollBy(-660,0);
+  } else if (type === 'right') {
+    partnerInner.scrollBy(660,0);
+  }
+}
+
+let partnerScrollInterval = setInterval(() => {
+  setTimeout(() => {
+    if (partnerInner.scrollLeft <= 600) {
+      partnerScroll('right');
+    } else {
+      partnerScroll('left');
+    }
+    console.log(partnerInner.scrollLeft)
+  }, 500);
+}, 5000);
