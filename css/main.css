@@ -171,6 +171,17 @@ nav ul li:last-child {
   margin-bottom: 10px;
 }
 
+.about-image {
+  width: 250px;
+  float: right;
+  margin-top: -150px;
+  margin-right: 50px;
+}
+
+.about-image img {
+  width: 100%;
+}
+
 #suspended-mobile {
   position: absolute;
   width: 100%;
