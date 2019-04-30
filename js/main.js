@@ -12,6 +12,9 @@ const headerComponent = `
           <a href="#about">About Warren</a>
         </li>
         <li>
+          <a href="#partners">Partners</a>
+        </li>
+        <li>
           <a href="#team">Team</a>
         </li>
         <li>
