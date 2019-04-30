@@ -28,6 +28,10 @@
     display: none;
   }
 
+  .about-image {
+    display: none;
+  }
+
   #suspended-mobile {
     margin-top: -180px;
   }
