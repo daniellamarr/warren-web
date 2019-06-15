@@ -143,11 +143,11 @@ nav ul li:last-child {
 .home-image {
   position: absolute;
   right: 150px;
-  top: 100px;
+  top: 60px;
 }
 
 .home-image img {
-  width: 650px;
+  width: 700px;
 }
 
 #about {
