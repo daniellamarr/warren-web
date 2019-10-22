@@ -13,12 +13,12 @@ html {
 }
 
 body {
-  font-family: 'Sofia';
+  font-family: 'Raleway', sans-serif;
 }
 
 a {
   text-decoration: none;
-  color: #ffffff;
+  color: #777777;
   font-size: 13px;
 }
 
@@ -73,10 +73,6 @@ header {
   z-index: 100;
 }
 
-.header-fixed nav {
-  margin-top: -35px;
-}
-
 .header-fixed .logo {
   margin-top: 0;
 }
@@ -87,7 +83,7 @@ header {
 
 .logo {
   margin-left: 50px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .logo img {
@@ -107,13 +103,13 @@ header {
 
 nav {
   float: right;
-  margin-right: 150px;
-  margin-top: -40px;
+  margin-right: 50px;
+  margin-top: -30px;
 }
 
 nav ul li {
   display: inline;
-  margin-right: 30px;
+  margin-right: 50px;
 }
 
 nav ul li:last-child {
@@ -121,12 +117,8 @@ nav ul li:last-child {
 }
 
 #home {
-  background-image: url(../images/background.png);
-  background-position: left;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: #ffffff;
-  height: 500px;
+  height: 90vh;
+  background-color: #fbfbfb;
 }
 
 .home-title {
@@ -135,51 +127,167 @@ nav ul li:last-child {
 }
 
 .home-title h1 {
-  color: #ffffff;
-  font-size: 27px;
+  color: #000000;
+  font-size: 30px;
   margin-bottom: 20px;
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: normal;
+}
+
+.home-title h1 span {
+  font-size: 40px;
+}
+
+.home-title p {
+  margin-bottom: 20px;
+}
+
+.image-title {
+  display: flex;
+  flex-direction: row;
+}
+
+.image-title img {
+  width: 150px;
+  margin-right: 20px;
 }
 
 .home-image {
   position: absolute;
-  right: 150px;
-  top: 60px;
+  right: 50px;
+  top: 100px;
 }
 
 .home-image img {
-  width: 700px;
+  width: 600px;
 }
 
 #about {
-  height: 500px;
-  background-color: #dcae22;
+  height: 600px;
+  background-color: #f2f2f2;
+  padding: 50px;
 }
 
 .about-title {
-  margin-left: 50px;
-  padding-top: 100px;
+  text-align: center;
 }
 
 .about-title h1 {
-  color: #ffffff;
-  font-size: 27px;
+  color: #000000;
+  font-size: 40px;
   margin-bottom: 10px;
+  font-family: 'Playfair Display', sans-serif;
 }
 
 .about-title p {
-  color: #ffffff;
+  color: #000000;
   margin-bottom: 10px;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
 }
 
 .about-image {
-  width: 250px;
-  float: right;
-  margin-top: -150px;
-  margin-right: 50px;
+  width: 50%;
 }
 
 .about-image img {
   width: 100%;
+}
+
+.about-reasons {
+  width: 50%;
+}
+
+.reasons-box {
+  padding: 50px;
+}
+
+.reasons {
+  width: 80%;
+  background-color: rgba(228, 183, 0, 0.24);
+  border-radius: 5px;
+  padding: 15px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.reasons .icon {
+  margin-right: 20px;
+}
+
+.reasons .icon img {
+  width: 50px;
+}
+
+.reasons-text h1 {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+}
+
+.reasons-text p {
+  font-size: 14px;
+}
+
+#invest {
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+}
+
+.invest-details {
+  width: 50%;
+  background-color: #e4b700;
+  color: #ffffff;
+}
+
+.invest-details .details {
+  padding: 80px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.invest-details .details h1 {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 40px;
+  margin-bottom: 35px;
+}
+
+.invest-details .details p {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 18px;
+  margin-bottom: 80px;
+}
+
+.invest-details .details ul li {
+  font-size: 17px;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+.invest-details .details ul li:before {
+  content: '';
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  background-size: 30px;
+  background-image: url(../images/shield.png);
+  background-repeat: no-repeat;
+  margin-right: 15px;
+  margin-top: 5px;
+}
+
+.invest-image {
+  width: 50%;
+  background-image: url(../images/invest-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 #suspended-mobile {
@@ -300,11 +408,12 @@ nav ul li:last-child {
 }
 
 .download-text h1 {
-  font-size: 30px;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .download-text p {
-  font-size: 13px;
+  font-size: 18px;
 }
 
 .download-button img {
@@ -353,28 +462,44 @@ nav ul li:last-child {
 }
 
 footer {
-  background-color: #dcae22;
+  background-color: #ffffff;
   padding: 50px;
-  color: #ffffff;
+  color: #aaaaaa;
 }
 
 .footer-bars {
-  float: right;
-  margin-top: -50px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+.footer-bars .footer-about-warren {
+  width: 60% !important;
+}
+
+.footer-bars .footer-about-warren {
+  font-family: 'Playfair Display', sans-serif;
 }
 
 .footer-bars .bars {
-  float: left;
-  margin-left: 50px;
+  margin-right: 50px;
+  width: 20%;
 }
 
 .footer-bars .bars h1 {
   margin-bottom: 10px;
+  color: #000000;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .footer-bars .bars li {
   list-style: none;
   font-size: 13px;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', sans-serif;
 }
 
 .footer-end {
