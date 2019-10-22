@@ -1,7 +1,7 @@
 const headerComponent = `
   <header>
     <div class="logo">
-      <img src="images/logo1.png" width="100px" />
+      <img src="images/logo-small-dark.png" width="100px" />
     </div>
     <div class="mobile-menu">
       <i class="ti ti-menu"></i>
@@ -15,7 +15,7 @@ const headerComponent = `
           <a href="#partners">Partners</a>
         </li>
         <li>
-          <a href="#team">Team</a>
+          <a href="#team">FAQs</a>
         </li>
         <li>
           <a href="#download">Download</a>
